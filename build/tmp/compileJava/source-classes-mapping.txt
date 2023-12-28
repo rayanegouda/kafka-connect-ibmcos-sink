@@ -1,0 +1,92 @@
+com/ibm/cos/ClientFactory.java
+ com.ibm.cos.ClientFactory
+com/ibm/cos/endpoints/Endpoints.java
+ com.ibm.cos.endpoints.Endpoints
+com/ibm/eventstreams/connect/cossink/completion/RecordCountCriteria.java
+ com.ibm.eventstreams.connect.cossink.completion.RecordCountCriteria
+com/ibm/eventstreams/connect/cossink/deadline/DeadlineService.java
+ com.ibm.eventstreams.connect.cossink.deadline.DeadlineService
+com/ibm/eventstreams/connect/cossink/deadline/DeadlineServiceImpl.java
+ com.ibm.eventstreams.connect.cossink.deadline.DeadlineServiceImpl
+com/ibm/eventstreams/connect/cossink/COSSinkConnectorConfig.java
+ com.ibm.eventstreams.connect.cossink.COSSinkConnectorConfig
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSWritableObjectFactory.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSWritableObjectFactory
+com/ibm/eventstreams/connect/cossink/partitionwriter/RequestType.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.RequestType
+com/ibm/eventstreams/connect/cossink/partitionwriter/SchemaProvider.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.SchemaProvider
+com/ibm/eventstreams/connect/cossink/partitionwriter/RequestProcessor.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.RequestProcessor
+ com.ibm.eventstreams.connect.cossink.partitionwriter.RequestProcessor$1
+ com.ibm.eventstreams.connect.cossink.partitionwriter.RequestProcessor$Request
+com/ibm/eventstreams/connect/cossink/partitionwriter/WritableObject.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.WritableObject
+com/ibm/eventstreams/connect/cossink/completion/FirstResult.java
+ com.ibm.eventstreams.connect.cossink.completion.FirstResult
+com/ibm/eventstreams/connect/cossink/completion/NextResult.java
+ com.ibm.eventstreams.connect.cossink.completion.NextResult
+com/ibm/eventstreams/connect/cossink/completion/AsyncCompleter.java
+ com.ibm.eventstreams.connect.cossink.completion.AsyncCompleter
+com/ibm/eventstreams/connect/cossink/partitionwriter/AvroConverter.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.AvroConverter
+ com.ibm.eventstreams.connect.cossink.partitionwriter.AvroConverter$AvroConverterConfig
+com/ibm/eventstreams/connect/cossink/partitionwriter/ParquetRecordWriter.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.ParquetRecordWriter
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSPartitionWriter.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSPartitionWriter
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSPartitionWriter$1
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSPartitionWriter$AsyncCompleterImpl
+com/ibm/cos/BucketImpl.java
+ com.ibm.cos.BucketImpl
+com/ibm/eventstreams/connect/cossink/deadline/DeadlineCanceller.java
+ com.ibm.eventstreams.connect.cossink.deadline.DeadlineCanceller
+com/ibm/cos/ClientImpl.java
+ com.ibm.cos.ClientImpl
+com/ibm/eventstreams/connect/cossink/COSSinkTask.java
+ com.ibm.eventstreams.connect.cossink.COSSinkTask
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSOutputFile.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSOutputFile
+com/ibm/eventstreams/connect/cossink/completion/ObjectCompletionCriteria.java
+ com.ibm.eventstreams.connect.cossink.completion.ObjectCompletionCriteria
+com/ibm/eventstreams/connect/cossink/completion/DeadlineCriteria.java
+ com.ibm.eventstreams.connect.cossink.completion.DeadlineCriteria
+com/ibm/cos/Bucket.java
+ com.ibm.cos.Bucket
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSOutputStream.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSOutputStream
+com/ibm/eventstreams/connect/cossink/partitionwriter/PartitionWriterFactory.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.PartitionWriterFactory
+com/ibm/eventstreams/connect/cossink/completion/CompletionCriteriaSet.java
+ com.ibm.eventstreams.connect.cossink.completion.CompletionCriteriaSet
+ com.ibm.eventstreams.connect.cossink.completion.CompletionCriteriaSet$1
+com/ibm/cos/ClientFactoryException.java
+ com.ibm.cos.ClientFactoryException
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSPartitionWriterFactory.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSPartitionWriterFactory
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSParquetObject.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSParquetObject
+com/ibm/eventstreams/connect/cossink/partitionwriter/FileSchemaProvider.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.FileSchemaProvider
+com/ibm/eventstreams/connect/cossink/partitionwriter/WritableObjectFactory.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.WritableObjectFactory
+com/ibm/eventstreams/connect/cossink/COSSinkConnector.java
+ com.ibm.eventstreams.connect.cossink.COSSinkConnector
+com/ibm/eventstreams/connect/cossink/partitionwriter/ParquetRecordWriterProvider.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.ParquetRecordWriterProvider
+com/ibm/eventstreams/connect/cossink/partitionwriter/COSObject.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.COSObject
+com/ibm/eventstreams/connect/cossink/deadline/DeadlineListener.java
+ com.ibm.eventstreams.connect.cossink.deadline.DeadlineListener
+com/ibm/cos/ClientFactoryImpl.java
+ com.ibm.cos.ClientFactoryImpl
+com/ibm/eventstreams/connect/cossink/completion/RecordIntervalCriteria.java
+ com.ibm.eventstreams.connect.cossink.completion.RecordIntervalCriteria
+com/ibm/cos/endpoints/Endpoint.java
+ com.ibm.cos.endpoints.Endpoint
+com/ibm/cos/Client.java
+ com.ibm.cos.Client
+com/ibm/eventstreams/connect/cossink/partitionwriter/PartitionWriter.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.PartitionWriter
+com/ibm/eventstreams/connect/cossink/partitionwriter/SchemaProviderFactory.java
+ com.ibm.eventstreams.connect.cossink.partitionwriter.SchemaProviderFactory
